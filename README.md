@@ -75,13 +75,14 @@ To push a new project in github
 
 create new github project
 
-`cd <project directory>`
-`git init`
-`git remote add origin https://<github access token>@github.com/<username>/<github project name>.git`
-`git add .`
-`git commit -m"<message>"`
-`git push --set-upstream origin master`
-
+```
+cd <project directory>
+git init
+git remote add origin https://<github access token>@github.com/<username>/<github project name>.git
+git add .
+git commit -m"<message>"
+git push --set-upstream origin master
+```
 ### generating github access token 
 Go to setting in github
 Go to create token
