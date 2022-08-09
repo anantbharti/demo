@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Greet from './components/Greet';
+// import Hello from './components/Hello';
+// import Message from './components/Message';
+import Welcome from './components/Welcome';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Greet name="Anant"/>
+      {/* <Welcome name="Shruti"/> */}
+      {/* <Hello/>
+      <Message/> */}
+      <embed height="400px" width="100%" src="https://anant--bharti.web.app" title="Hello"/>
     </div>
   );
 }
